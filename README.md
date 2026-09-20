@@ -1,4 +1,4 @@
-#  Operating Systems — Mini Projects
+# Operating Systems — Mini Projects
 
 <div align="center">
 
@@ -11,7 +11,7 @@ through practical real-world scenarios.
 
 ---
 
-##  About
+## About
 
 This repository contains practical implementations of fundamental
 Operating Systems concepts studied through laboratory experiments.
@@ -22,26 +22,24 @@ deadlocks and scheduling work in practice.
 
 ---
 
-##  Concepts & Use Cases
+## Concepts & Use Cases
 
 | # | Concept | Use Case |
 |:---:|---|---|
-| 01 | Process Management |  Process Execution |
-| 02 | Process & Thread Concepts |  Concurrent Execution |
-| 03 | Multithreading & Multiprocessing |  Online Shopping |
-| 04 | Mutual Exclusion |  Smart Door Lock |
-| 05 | Reader-Writer Problem |  Banking System |
-| 06 | Resource Synchronization |  AI Model Training |
-| 07 | Deadlocks & Avoidance |  Cloud Gaming |
-| 08 | CPU Scheduling |  Flash Sale /  Delivery |
-| 09 | Priority & Round Robin |  Process Scheduling |
+| 01 | Multithreading & Multiprocessing | Online Shopping |
+| 02 | Mutual Exclusion | Smart Door Lock |
+| 03 | Reader-Writer Problem | Banking / Online Examination |
+| 04 | Resource Synchronization | AI Model Training |
+| 05 | Deadlocks & Avoidance | Cloud Gaming |
+| 06 | CPU Scheduling | Flash Sale / Delivery |
+| 07 | Priority & Round Robin | Smart Irrigation |
 
 ---
 
-##  Core Topics
+## Core Topics
 
 ```text
-PROCESS MANAGEMENT
+PROCESSES & THREADS
         ↓
 MULTITHREADING
         ↓
@@ -54,29 +52,37 @@ DEADLOCKS
 CPU SCHEDULING
 ```
 
-###  Multithreading & Multiprocessing
+### Multithreading & Multiprocessing
 
-Working with multiple threads and processes to perform tasks concurrently.
+Working with multiple threads and processes to perform tasks
+concurrently.
 
-###  Mutual Exclusion
+### Mutual Exclusion
 
 Using semaphores and mutexes to safely access shared resources.
 
-###  Reader-Writer
+### Reader-Writer
 
-Managing simultaneous readers while providing exclusive access to writers.
+Managing simultaneous readers while providing exclusive access
+to writers.
 
-###  Deadlocks
+### Resource Synchronization
 
-Understanding resource conflicts, circular waits and deadlock avoidance.
+Managing multiple threads competing for limited shared resources.
 
-###  CPU Scheduling
+### Deadlocks
 
-Implementing scheduling algorithms such as FCFS, SJF, Priority and Round Robin.
+Understanding resource conflicts, circular waits and deadlock
+avoidance using resource allocation techniques.
+
+### CPU Scheduling
+
+Implementing scheduling algorithms such as FCFS, SJF, Priority
+and Round Robin.
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - **C**
 - **POSIX Threads**
@@ -88,20 +94,18 @@ Implementing scheduling algorithms such as FCFS, SJF, Priority and Round Robin.
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 ```text
 operating-systems-mini-projects/
 │
-├── 01_Process_Management/
-├── 02_Process_Thread_Concepts/
-├── 03_Multithreading_Multiprocessing/
-├── 04_Mutual_Exclusion/
-├── 05_Reader_Writer/
-├── 06_Resource_Synchronization/
-├── 07_Deadlocks/
-├── 08_CPU_Scheduling/
-├── 09_Priority_Round_Robin/
+├── 01_Multithreading_Multiprocessing/
+├── 02_Mutual_Exclusion/
+├── 03_Reader_Writer/
+├── 04_Resource_Synchronization/
+├── 05_Deadlocks/
+├── 06_CPU_Scheduling/
+├── 07_Priority_Round_Robin/
 │
 ├── README.md
 ├── LICENSE
@@ -110,7 +114,7 @@ operating-systems-mini-projects/
 
 ---
 
-##  Running the Programs
+## Running the Programs
 
 Clone the repository:
 
@@ -137,19 +141,38 @@ Run:
 ./program
 ```
 
+Each experiment directory contains its own README with the
+corresponding compilation and execution commands.
+
 ---
 
-##  Purpose
+## Experiments
+
+| Experiment | Topics |
+|:---:|---|
+| **01** | Multithreading & Multiprocessing |
+| **02** | Mutual Exclusion |
+| **03** | Reader-Writer Problem |
+| **04** | Resource Synchronization |
+| **05** | Deadlocks & Deadlock Avoidance |
+| **06** | FCFS & SJF Scheduling |
+| **07** | Priority & Round Robin Scheduling |
+
+---
+
+## Purpose
 
 This repository is part of my **Operating Systems coursework** and
 serves as a practical collection of C implementations.
 
 The focus is not only on implementing the algorithms, but also on
-understanding how they apply to real-world systems.
+understanding how Operating Systems concepts apply to real-world
+systems.
 
 ---
 
 <div align="center">
 
+`Built with C • Threads • Synchronization • Scheduling`
 
 </div>
