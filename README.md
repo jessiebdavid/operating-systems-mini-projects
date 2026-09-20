@@ -119,7 +119,7 @@ operating-systems-mini-projects/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/operating-systems-mini-projects.git
+git clone https://github.com/jessiebdavid/operating-systems-mini-projects.git
 cd operating-systems-mini-projects
 ```
 
